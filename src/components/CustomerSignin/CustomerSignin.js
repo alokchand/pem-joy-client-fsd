@@ -202,6 +202,15 @@ export default function CustomerSignin() {
                                     }
                                   />
                                 </div>
+                                 <a
+                                     href="https://gps-coordinates.org/"
+                                      className="btn btn-primary"
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                     height="10px"
+                                      >
+                                    GetLocation
+                                   </a>
                                 <div className="form-group mt-2">
                                   <input
                                     type="number"
