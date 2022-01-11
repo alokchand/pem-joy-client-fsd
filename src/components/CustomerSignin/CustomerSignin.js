@@ -9,8 +9,8 @@ export default function CustomerSignin() {
   const [details, setDetails] = useState({
     userName: "",
     passWord: "",
-    latitude: 0,
-    longitude: 0,
+    latitude: "",
+    longitude: "",
   });
   const dispatch = useDispatch();
 
